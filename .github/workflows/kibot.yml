@@ -23,8 +23,8 @@ on:
     - "**/*kibot.yml"
 
 env:
-  schema: "**/*.kicad_sch"
-  board: "**/*.kicad_pcb"
+  schema: "genoswitch-rp2040/*.kicad_sch"
+  board: "genoswitch-rp2040/*.kicad_pcb"
   dir: .
 
 jobs:
